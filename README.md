@@ -15,8 +15,8 @@ import usePagination from 'use-pagination-mui'
 import { TablePagination } from '@material-ui/core'
 
 const App = () => {
-                                                                           //initial perPage
-  const { page, changePageEvent, perPage, changePerPageEvent, arrayPage } = usePagination(10)
+                                                                                       //initial perPage
+  const { page, changePage, changePageEvent, perPage, changePerPageEvent, arrayPage } = usePagination(10)
 
   //example on how you can send page information to an api
   const callApi = () => {
