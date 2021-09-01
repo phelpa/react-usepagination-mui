@@ -21,7 +21,6 @@ const App = () => {
   //example on how you can send page information to an api
   const callApi = () => {
       getList(url, { page, perPage }) //page starts with 1
-      changePage(1) //changePage changes the current page directly
   }
 
   return (
